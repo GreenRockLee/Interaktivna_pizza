@@ -1,0 +1,142 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid white;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar {
+  background: #BB3F26;
+  height: 80px;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  border-bottom: white 1px solid;
+}
+
+.navbar a {
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  margin-left: 24px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: black;
+  transition: 0.5s;
+}
+
+.navbar .logo {
+  position: absolute;
+  left: 12px;
+}
+
+.navbar .logo p {
+  display: inline;
+  font-weight: bold;
+  padding-left: 12px;
+  cursor: pointer;
+}
+
+.navbar .kosik {
+  position: absolute;
+  right: 12px;
+  cursor: pointer;
+}
+
+.contact {
+  margin-top: 100px;
+  background: #BB3F26;
+  padding: 12px;
+  color: white;
+  border-top: 1px solid white;
+}
+
+.contact .mapa {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact .popis {
+  float: left;
+}
+
+.contact .popis .socials p {
+  display: inline;
+  margin: 12px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.gallerywrapper {
+  margin-top: 100px;
+  height: 600px;
+  width: 100%;
+  border: 2px solid white;
+}
+
+.gallerybigimage {
+  border-right: 1px solid white;
+  width: 50%;
+  height: 100%;
+  float: left;
+  object-fit: cover;
+}
+
+.galleryimage1 {
+  width: 25%;
+  height: 50%;
+  float: right;
+}
+
+.galleryimage2 {
+  border-right: 1px solid white;
+  border-botton: 1px solid white;
+  width: 25%;
+  height: 50%;
+  float: right;
+}
+
+.galleryimage3 {
+  border-top: 1px solid white;
+  width: 25%;
+  height: 50%;
+  float: right;
+}
+
+.galleryimage4 {
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  width: 25%;
+  height: 50%;
+  float: right;
+}
+
